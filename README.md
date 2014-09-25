@@ -15,7 +15,8 @@ INSTALLATION
 
 ```sh
 git clone [repo-url] spvwallet
-sbt packageBin
+cd spvwallet
+sbt stage or sbt universal:packageBin for a zip
 cd target/universal/stage
 bin/spvwallet [master-pub-key] [starting height]
 ```
