@@ -1,0 +1,10 @@
+.cache
+.classpath
+.project
+bin/
+target/
+lib/
+journal/
+snapshots/
+console.log
+src/main/resources/blockchain_headers
